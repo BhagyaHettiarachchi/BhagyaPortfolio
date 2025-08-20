@@ -16,7 +16,7 @@ body {
     line-height: 1.6;
 }
 
-/* Container for alignment */
+/* Container */
 .container {
     width: 90%;
     max-width: 1100px;
@@ -179,6 +179,43 @@ ul li::before {
     position: absolute;
     left: 0;
     color: #fcbf49;
+}
+
+/* Contact Section Icons */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    font-size: 1.1rem;
+}
+
+.contact-list i {
+    margin-right: 10px;
+    font-size: 1.3rem;
+    color: #fcbf49;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #2b2d42;
+    transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+    color: #fcbf49;
+}
+
+.contact-list li:hover i {
+    transform: scale(1.2);
+    color: #2b2d42;
 }
 
 /* Footer */
